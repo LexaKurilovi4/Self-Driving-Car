@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Self-driving car</title>
+    <link rel="stylesheet" href="style.css"> <!--фон-->
+</head>
+<body>
+    <canvas id="car_canvas"></canvas>
+    <div id="vertical_buttons">
+        <button onclick="save()">💾</button> <!--сохранение-->
+        <button onclick="discard()">🗑️</button> <!--удаление-->
+    </div>
+    <canvas id="network_canvas"></canvas> <!---->
+    <script src="netwwork_visualizer.js"></script> <!--визуализация-->
+    <script src="network.js"></script> <!--нейросети-->
+    <script src="sensor.js"></script> <!--сенсоры-->
+    <script src="utils.js"></script> <!--утилита-->
+    <script src="road.js"></script> <!--лорога-->
+    <script src="controls.js"></script> <!--контроль-->
+    <script src="car.js"></script> <!--машина-->
+    <script src="main.js"></script> <!--основа-->
+</body>
+</html>
